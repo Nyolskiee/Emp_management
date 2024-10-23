@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #FFB4C2;
+}
+
+.header {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Padding around the header */
+    background-color: #667BC6; /* Optional background color */
+    margin: 0 0 15px 0;
+    border-radius: 4px;
+}
+
+.header h2 {
+    margin: 0;
+    color: whitesmoke;
+}
+
+.header a {
+    text-decoration: none; /* Remove underline */
+    color: whitesmoke; /* Change link color */
+    padding: 8px 16px; /* Add padding around the link */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.header a:hover {
+    background-color: #8ba4cc; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px; /* Space above table */
+    border-radius: 4px;
+}
+
+th {
+    border: 1px solid #dddddd; /* Border for table cells */
+    text-align: left; /* Align text to the left */
+    padding: 8px; /* Padding inside cells */
+    background-color: #667BC6;
+    color: #dddddd;
+}
+td{
+    background-color: #8ba4cc;
+}
+
+
+.btn{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;
+    color: #FDFFD2;
+    background-color: #DA7297;
+    font-weight: 600;
+}
